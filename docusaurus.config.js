@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '我的blog',
+  title: '我的空间',
   tagline: '个人技术文档',
   favicon: 'img/favicon.ico',
 
@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://www.cg-rain.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -91,12 +91,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '笔记',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/test', label: 'Cpp', position: 'left' },
+          { to: '/blog', label: '博客', position: 'left' },
+          { to: '/about', label: '关于', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Guangyu321',
             label: 'GitHub',
             position: 'right',
           },
@@ -106,7 +106,7 @@ const config = {
       colorMode: {
         defaultMode: 'dark',
         // respectPrefersColorScheme: true,
-        disableSwitch: true,
+        disableSwitch: false,
       },
       announcementBar: {
         id: 'announcementBar',
@@ -120,29 +120,38 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Search',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'ChatGPT',
+                href: 'https://chat.openai.com/',
+                // to: '/docs/intro',
+              },
+              {
+                label: 'Grok',
+                href: 'https://grok.com/',
+              },
+              {
+                label: 'Gemini',
+                href: 'https://gemini.google.com/',
               },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
+              // {
+              //   label: 'X',
+              //   href: 'https://x.com',
+              // },
             ],
           },
           {
@@ -153,13 +162,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'website',
+                href: 'https://cg-rain.com',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} gy-rain, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

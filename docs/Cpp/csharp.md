@@ -6,5 +6,11 @@ keywords: [描述, 中心的, 关键词]
 ---
 
 
+# 图片居中显示效果
+![images](.\image\docusaurus.png)
 
-![images](D:\guangyu-blog\guangyu-blog\static\img\docusaurus.png)
+<center>
+
+![images](.\image\docusaurus.png) 
+
+</center>

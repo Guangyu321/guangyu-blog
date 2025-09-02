@@ -8,4 +8,4 @@ keywords: [描述, 中心的, 关键词]
 # hello world
 
 # 连接到其他页面
-- [c](Cpp/c)
+- [c](../../docs/Cpp/c)
