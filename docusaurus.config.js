@@ -168,7 +168,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} gy-rain, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} cg-rain, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
